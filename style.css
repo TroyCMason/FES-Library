@@ -22,6 +22,9 @@ nav {
 
 img {
   width: 100%;
+  height: 100%;
+  max-height:50vh;
+  padding: 20px;
 }
 
 p {
@@ -102,16 +105,16 @@ button:active {
   font-weight: bold;
   padding: 8px;
 }
-
+/* Underlines when you hover over text */
 .nav__link:hover {
   text-decoration: underline;
-}
+} 
 
 .nav__link--primary {
   border: 2px solid #7342d6;
   border-radius: 4px;
 }
-
+/* Removes underline under the "Books Tab" */
 .nav__link--primary:hover {
   text-decoration: none;
 }
@@ -189,7 +192,7 @@ LANDING
 header {
   height: calc(100vh - 80px);
 }
-
+/* Contains image and prevents it from spreading to the end */
 .header__container {
   width: 100%;
   max-width: 720px;
@@ -198,6 +201,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding-top: 36px;
 }
 
 .header__description {
@@ -210,7 +214,7 @@ header {
   padding: 20px;
 
   /* Added this after the tutorial to 
-  show it over the wave on larger screens */
+  show it over the wave mmmjon larger screens */
   z-index: 50;
 }
 
