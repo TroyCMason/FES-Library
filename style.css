@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 * {
   padding: 0;
@@ -320,8 +321,9 @@ FEATURES
 }
 
 .books {
-  display: flex;
-  flex-wrap: wrap;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
 }
 
 .book {
@@ -333,8 +335,6 @@ FEATURES
   max-height: 380px;
   transition: all 300ms ease;
   cursor: not-allowed;
-  display: flex;
-  align-items: center;
 }
 
 .book__img--wrapper {
