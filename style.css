@@ -78,6 +78,7 @@ button:active {
   font-size: 20px;
   border-radius: 4px;
   border: none;
+  margin-bottom: 24px;
 }
 
 .purple {
@@ -213,10 +214,7 @@ header {
 
 .header__img--wrapper {
   padding: 20px;
-
-  /* Added this after the tutorial to 
-  show it over the wave mmmjon larger screens */
-  z-index: 50;
+  z-index: 2;
 }
 
 .container {
@@ -323,12 +321,12 @@ FEATURES
 .books {
 display: flex;
 flex-wrap: wrap;
-justify-content: center;
 }
 
 .book {
   width: 25%;
   padding: 24px;
+  flex-wrap: wrap;
 }
 
 .book__img {
@@ -342,6 +340,7 @@ justify-content: center;
   border-radius: 4px;
   overflow: hidden;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .book:hover .book__img {
