@@ -86,7 +86,7 @@ button:active {
 }
 
 .logo {
-  width: 160px;
+  width: 200px;
 }
 
 .nav__container {
@@ -137,9 +137,9 @@ button:active {
   right: 0;
   bottom: 0;
   z-index: 100;
-  display: flex;
+ /* display: flex;*/
+ justify-content: center;
   align-items: center;
-  justify-content: center;
   visibility: hidden;
   transition: all 300ms ease;
   opacity: 0;
